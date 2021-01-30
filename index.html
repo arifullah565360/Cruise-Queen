@@ -169,11 +169,11 @@
             const economyClassTicketCount = parseInt(document.getElementById('economy-class-ticket').value);
 
             if (firstClassTicketCount > 0 && economyClassTicketCount > 0) {
-                document.getElementById('confirm-message').innerText = "Congratulations! You have successfully purchased " + firstClassTicketCount + " first class ticket and " + economyClassTicketCount + " economy class ticket. Have nice journey!"
+                document.getElementById('confirm-message').innerText = "Congratulations! You have successfully purchased " + firstClassTicketCount + " first class ticket and " + economyClassTicketCount + " economy class ticket. HAVE A NICE JOURNEY!"
             } else if (firstClassTicketCount > 0 && economyClassTicketCount == 0) {
-                document.getElementById('confirm-message').innerText = "Congratulations! You have successfully purchased " + firstClassTicketCount + " first class ticket. Have nice journey!"
+                document.getElementById('confirm-message').innerText = "Congratulations! You have successfully purchased " + firstClassTicketCount + " first class ticket. HAVE A NICE JOURNEY!"
             } else if (firstClassTicketCount == 0 && economyClassTicketCount > 0) {
-                document.getElementById('confirm-message').innerText = "Congratulations! You have successfully purchased " + economyClassTicketCount + " economy class ticket. Have nice journey!"
+                document.getElementById('confirm-message').innerText = "Congratulations! You have successfully purchased " + economyClassTicketCount + " economy class ticket. HAVE A NICE JOURNEY!"
             } else {
                 document.getElementById('confirm-message').innerText = "Sorry, you have not selected any ticket. To purchase please select your desire ticket. Thank you."
             }
